@@ -1,3 +1,10 @@
+/*
+* John Carlo Cabanilla
+* Concepts of Programming Languages
+* November 25, 2022
+* Lucky 9
+*/
+
 extern crate rand;
 use rand::Rng;
 use std::io;
@@ -86,7 +93,7 @@ fn main() {
 	let mut cpu : Vec<Card> = Vec::new();
 	let rand_num : Vec<i32> = Vec::new();	
 	let mut balance = 2000;
-	let mut bet = 0;
+	let mut bet;
 	let mut input = String::new();
 
 	while input.trim() != "q" || balance == 0 {
@@ -150,8 +157,8 @@ fn main() {
 			for c in &player {
                         	c.print();
                 	}
-                	println!("total {}", total(&player));
-                        io::stdin().read_line(&mut input).unwrap();
+                	println!("total {}", total(&player)); 
+			io::stdin().read_line(&mut input);
 		}else {}
 		
 
