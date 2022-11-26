@@ -16,7 +16,9 @@ Hands are valued as the last digit of their sum.
 
 In the termninal enter the following command:
 
-cargo run src/main.rs
+```bash
+   cargo run src/main.rs
+```
 
 ## Game Mechanics
 
