@@ -1,4 +1,4 @@
-# Lucky-Nine
+# Lucky Nine
 
 
 Lucky 9 is a scored game like Baccarat and played like Blackjack.
